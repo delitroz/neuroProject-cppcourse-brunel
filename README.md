@@ -27,10 +27,9 @@ $ ./unittest
 ### Comments ###
 
 this version presents some problems:
-	1: the time required to run the simulation in its standard size is far to big, it should indeed take roughly 10minutes to run it, 		   which is way under the standard required.
-	   This create some issues with the unittest to: to get it to run in an acceptable time, it's better to run it with the minimal  	    viable configuration of 50 neurons
+	1: the time required to run the simulation in its standard size is far to big, it should indeed take roughly 10minutes to run it, which is way under the standard required. This create some issues with the unittest to: to get it to run in an acceptable time, it's better to run it with the minimal viable configuration of 50 neurons
  
-	2: the simulation produce way to much spikes in its standard size, the plot becomes unreadable. However, playing a bit with the 	   time- and number-of-neurons parameters I could recreate a figure getting close to Brunell's one
+	2: the simulation produce way to much spikes in its standard size, the plot becomes unreadable. However, playing a bit with the time- and number-of-neurons parameters I could recreate a figure getting close to Brunell's one
 
 
 
